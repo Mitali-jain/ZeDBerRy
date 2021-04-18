@@ -17,6 +17,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arapey&family=Pacifico&family=Sanchez&display=swap"
+        rel="stylesheet">
     <!-- css file -->
     <link rel="stylesheet" href="Website1.css">
     <!-- title -->
@@ -40,23 +45,23 @@
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li clas="nav-item">
-                        <a class="nav-link" href="">About</a>
+                        <a class="nav-link" href="#statement">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Contact</a>
+                        <a class="nav-link" href="#footer">Contact</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">More
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Direction</a></li>
-                            <li><a class="dropdown-item" href="#">Form</a></li>
-                            <li><a class="dropdown-item" href="#">Meeting</a></li>
+                            <li><a class="dropdown-item" href="https://maps.google.com">Direction</a></li>
+                            <li><a class="dropdown-item" href="https://forms.gle/nHLWjcPsdkQYUW1V9">Form</a></li>
+                            <li><a class="dropdown-item" href="https://meet.google.com">Meeting</a></li>
                         </ul>
                     </li>
                     <li clas="nav-item">
-                        <a class="nav-link" href="">Help</a>
+                        <a class="nav-link" href="#footer">Help</a>
                     </li>
                 </ul>
             </div>
@@ -66,9 +71,10 @@
         <div class="heading row">
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <h1>Find the best outfit here!!</h1>
-                <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i>Download</button>
-                <button type="button" class="btn btn-outline-light btn-lg"><i
-                        class="fab fa-google-play"></i>Download</button>
+                <button type="button" class="btn btn-dark btn-lg btn_pg1"><i class="fab fa-apple"></i>Download</button>
+                <button type="button" class="btn btn-outline-light btn-lg btn_pg1">
+                    <i class="fab fa-google-play"></i>Download
+                </button>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <img class="img" src="images/Outfit.jpg">
@@ -76,33 +82,35 @@
         </div>
     </div>
     <div class="page2">
-        <h2>Offers</h2>
-    <div>
-        <div class="offers row">
-            <img class="offer1 col-lg-6" src="images/off20.jpg" alt="Flat 20% off">
-            <div class=" col-lg-6">
-                <h3>Flat 20% off</h3>
-                <p>Get 20% off on the following branded products from GUCCI, REEBOK, ADIDAS, H&M etc. </p>
+        <h2 class="h21">Offers</h2>
+        <div>
+            <div class="offers row">
+                <img class="offer1 col-lg-6" src="images/off20.jpg" alt="Flat 20% off">
+                <div class=" col-lg-6">
+                    <h3>Flat 20% off</h3>
+                    <p>Get 20% off on the following branded products from GUCCI, REEBOK, ADIDAS, H&M etc. </p>
+                </div>
+            </div class="">
+            <div class="offers row">
+                <div class=" col-lg-6">
+                    <h3>Flat 40% off</h3>
+                    <p>Get 40% off on the following branded products from GUCCI, REEBOK, ADIDAS, H&M etc. </p>
+                </div>
+                <img class="offer2 col-lg-6" src="images/off40.jpeg" alt="Flat 40% off">
             </div>
-        </div class="">
-        <div class="offers row">
-            <div class=" col-lg-6">
-                <h3>Flat 40% off</h3>
-                <p>Get 40% off on the following branded products from GUCCI, REEBOK, ADIDAS, H&M etc. </p>
-            </div>
-            <img class="offer2 col-lg-6" src="images/off40.jpeg" alt="Flat 40% off">
-        </div>
-        <div class="offers row">
-            <img class="offer3 col-lg-6" src="images/off60.jpeg" alt="Flat 60% off">
-            <div class=" col-lg-6">
-                <h3>Flat 60% off</h3>
-                <p>Get 60% off on the following branded products from GUCCI, REEBOK, ADIDAS, H&M etc. </p>
+            <div class="offers row">
+                <img class="offer3 col-lg-6" src="images/off60.jpeg" alt="Flat 60% off">
+                <div class=" col-lg-6">
+                    <h3>Flat 60% off</h3>
+                    <p>Get 60% off on the following branded products from GUCCI, REEBOK, ADIDAS, H&M etc. </p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-    <div class="container-fluid" style="background-color:#ffe599">Being a fashion girl doesn't only mean that you
-        meticulously follow all the celeb trends or that you wear expensive designer labels. You're also very in-tune
+    <div id="statement" class="container-fluid statement" style="background-color:#ffe599">Being a fashion girl doesn't
+        only mean that
+        you meticulously follow all the celeb trends or that you wear expensive designer labels. You're also very
+        in-tune
         with your personal sense of style. Simply put, you know what you like and every outfit that you wear
         demonstrates your own unique perspective.
     </div>
@@ -179,6 +187,19 @@
             </div>
         </div>
     </div>
+    <div class="container-fluid page4">
+        <h2 class="h22">Find the outfit that match your vibes in low cost.</h2>
+        <button type="button" class="btn btn-lg btn-dark btn_again"><i class="fab fa-apple"></i> Download</button>
+        <button type="button" class="btn btn-lg btn-light btn_again "><i class="fab fa-google-play"></i>
+            Download</button>
+    </div>
+    <footer id="footer">
+        <i class="fab fa-facebook-f fa-2x"></i>
+        <i class="fab fa-twitter fa-2x"></i>
+        <i class="fab fa-instagram fa-2x"></i>
+        <i class="fas fa-envelope fa-2x"></i>
+        <i class="fab fa-linkedin-in fa-2x"></i>
+        <p class="footer_p">Made with love by Mitali Jain🖤</p>
+    </footer>>
 </body>
-
 </html>
